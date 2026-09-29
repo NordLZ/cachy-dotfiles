@@ -1,0 +1,6 @@
+^gnome$
+^gnome/.*
+^README\.md$
+^install\.sh$
+^makefile$
+^\.git$
