@@ -12,6 +12,7 @@ sudo pacman -Sy --noconfirm
 PACKAGES=(
     # Development & Tools
     gcc
+    stow
     tree-sitter-cli
     ripgrep
     fd
@@ -19,6 +20,7 @@ PACKAGES=(
     tealdeer #tldr
     lazygit
     btop
+    ncdu
 
     # Fonts
     ttf-jetbrains-mono-nerd
