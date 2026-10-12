@@ -11,13 +11,12 @@ set -gx VISUAL nvim
 set -gx SUDO_EDITOR nvim
 
 # Sudo expansions
-abbr -a p 'sudo pacman'
-abbr -a systemctl 'sudo systemctl'
-abbr -a journalctl 'sudo journalctl'
-abbr -a mount 'sudo mount'
-abbr -a umount 'sudo umount'
+for cmd in systemctl journalctl mount umount docker docker-compose
+    abbr -a $cmd "sudo $cmd"
+end
 
 # System & Tool Shortcuts
+abbr -a p 'sudo pacman'
 abbr -a kys 'poweroff'
 abbr -a v 'nvim'
 abbr -a lg 'lazygit'
