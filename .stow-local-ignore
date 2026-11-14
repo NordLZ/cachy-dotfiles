@@ -1,6 +1,20 @@
-^gnome$
-^gnome/.*
-^README\.md$
-^install\.sh$
-^makefile$
-^\.git$
+# Git metadata
+^/\.git$
+^/\.gitignore$
+^/\.gitmodules$
+^/\.gitattributes$
+
+# Documentation and assets
+^/README\.md$
+^/background\.jpg$
+
+# Installation scripts and configuration
+^/install\.fish$
+^/makefile$
+^/shortcuts\.fish$
+^/shortcuts\.json$
+
+# Local configuration
+^/\.gnome$
+^/functions$
+

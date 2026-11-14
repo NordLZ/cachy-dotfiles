@@ -23,29 +23,6 @@ num-workspaces=10
 current-workspace-only=false
 
 #
-# Custom Keybindings
-#
-
-[org/gnome/settings-daemon/plugins/media-keys]
-control-center=['<Super>comma']
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
-name='Terminal'
-command='ghostty'
-binding='<Super>Return'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
-name='Firefox Web Browser'
-command='firefox'
-binding='<Super>b'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
-name='Color Picker'
-command='/home/adam/.local/bin/pick-color'
-binding='<Super><Alt>p'
-
-#
 # Window Manager Keybindings
 #
 
@@ -91,3 +68,25 @@ move-to-workspace-7=['<Super><Shift>7']
 move-to-workspace-8=['<Super><Shift>8']
 move-to-workspace-9=['<Super><Shift>9']
 move-to-workspace-10=['<Super><Shift>0']
+
+# Custom Keybindings
+
+[org/gnome/settings-daemon/plugins/media-keys]
+control-center=['<Super>comma']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+name='Terminal'
+command='ghostty'
+binding='<Super>Return'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+name='Firefox Web Browser'
+command='firefox'
+binding='<Super>b'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+name='Color Picker'
+command='/home/adam/.local/bin/pick-color'
+binding='<Super><Alt>p'
+
