@@ -11,7 +11,7 @@ set -gx VISUAL nvim
 set -gx SUDO_EDITOR nvim
 
 # Sudo expansions
-for cmd in systemctl journalctl mount umount docker docker-compose
+for cmd in systemctl mount umount docker docker-compose
     abbr -a $cmd "sudo $cmd"
 end
 
@@ -20,6 +20,7 @@ abbr -a p 'sudo pacman'
 abbr -a kys 'poweroff'
 abbr -a v 'nvim'
 abbr -a lg 'lazygit'
+abbr -a ka 'killall'
 
 # Custom editdotfiles command & alias
 function editdotfiles

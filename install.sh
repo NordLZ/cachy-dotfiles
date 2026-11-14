@@ -21,6 +21,8 @@ PACKAGES=(
     lazygit
     btop
     ncdu
+    neovim
+    github-cli
 
     # Fonts
     ttf-jetbrains-mono-nerd
