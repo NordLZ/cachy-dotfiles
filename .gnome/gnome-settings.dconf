@@ -7,7 +7,7 @@ enable-hot-corners=false
 color-scheme='prefer-dark'
 
 [org/gnome/desktop/input-sources]
-sources=[('xkb', 'us'), ('xkb', 'se'), ('xkb', 'de')]
+sources=[('xkb', 'us'), ('xkb', 'se'), ('xkb', 'de'), ('ibus', 'libpinyin'), ('ibus', 'm17n:zh:pinyin')]
 xkb-options=@as []
 
 [org/gnome/desktop/session]

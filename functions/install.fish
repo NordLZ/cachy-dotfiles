@@ -27,9 +27,21 @@ function install_packages
         ghostty \
         calibre \
         czkawka-gui \
-        libreoffice-fresh
+        libreoffice-fresh \
+        ibus \
+        ibus-libpinyin \
+        m17n-db
 
     sudo pacman -Syu --needed --noconfirm $packages
+    or return 1
+
+    echo "Installing AUR packages..."
+
+    set -l aur_packages \
+        ibus-m17n \
+        ie-r
+
+    paru -S --needed --noconfirm $aur_packages
     or return 1
 
     echo "Packages installed."
