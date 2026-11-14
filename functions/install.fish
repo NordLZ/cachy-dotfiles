@@ -38,8 +38,8 @@ end
 function install_shortcuts --argument-names dotfiles_dir
     echo "Generating GNOME shortcuts..."
 
-    set -l script "$dotfiles_dir/shortcuts.fish"
-    set -l config "$dotfiles_dir/shortcuts.json"
+    set -l script "$dotfiles_dir/functions/shortcuts.fish"
+    set -l config "$dotfiles_dir/assets/shortcuts.json"
 
     if not test -f "$script"
         echo "Error: shortcuts.fish not found." >&2
@@ -61,7 +61,7 @@ function install_gnome --argument-names dotfiles_dir
     echo "Configuring GNOME..."
 
     set -l dconf_file "$dotfiles_dir/.gnome/gnome-settings.dconf"
-    set -l wallpaper "$dotfiles_dir/background.jpg"
+    set -l wallpaper "$dotfiles_dir/assets/background.jpg"
 
     # Load dconf settings.
     if not type -q dconf

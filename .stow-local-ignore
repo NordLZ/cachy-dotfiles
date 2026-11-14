@@ -6,15 +6,13 @@
 
 # Documentation and assets
 ^/README\.md$
-^/background\.jpg$
+^/assets$
+^/functions$
 
 # Installation scripts and configuration
 ^/install\.fish$
 ^/makefile$
-^/shortcuts\.fish$
-^/shortcuts\.json$
 
 # Local configuration
 ^/\.gnome$
-^/functions$
 
