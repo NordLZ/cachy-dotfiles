@@ -35,6 +35,7 @@ PACKAGES=(
     torbrowser-launcher
     spotify-launcher
     qbittorrent
+    qalculate-gtk
 
     # Productivity & Apps
     vscodium
