@@ -1,0 +1,21 @@
+
+{
+  "shortcut": [
+    {
+      "name": "Terminal",
+      "command": "ghostty",
+      "binding": "<Super>Return"
+    },
+    {
+      "name": "Firefox Web Browser",
+      "command": "firefox",
+      "binding": "<Super>b"
+    },
+    {
+      "name": "Color Picker",
+      "command": "/home/adam/.local/bin/pick-color",
+      "binding": "<Super><Alt>p"
+    }
+  ]
+}
+

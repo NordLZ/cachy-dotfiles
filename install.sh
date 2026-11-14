@@ -26,6 +26,7 @@ PACKAGES=(
     ncdu
     neovim
     github-cli
+    jq
 
     # Fonts
     ttf-jetbrains-mono-nerd
@@ -45,6 +46,8 @@ PACKAGES=(
     czkawka-gui
     libreoffice-fresh
 )
+
+# TODO: cargo install tomlq. also make sure rustup is installed and install the latest version. also paru.
 
 # 3. Install Official Packages via Pacman
 echo "Installing official packages..."
